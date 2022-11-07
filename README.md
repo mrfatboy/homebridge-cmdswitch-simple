@@ -1,7 +1,7 @@
 # "Homebridge-cmdswitch-simple" Plugin
 
 
-The Homebridge-Dummy plugin is the basis for this plugin.  Homebridge-cmdswitch-simple just adds the cmd functionality on top of the dummy plugin.  You do not need both plugins if you want dummy switchs and cmd switches. Any CMD command can be used.
+Homebridge-cmdswitch-simple uses Homebridge-Dummy plugin is the basis for this plugin.  Homebridge-cmdswitch-simple just adds the cmd functionality on top of the dummy plugin.  You do not need both plugins if you want dummy switchs and cmd switches. Any CMD command can be used.
 
 
 Example config.json:
