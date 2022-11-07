@@ -1,7 +1,7 @@
 # "Homebridge-cmdswitch-simple" Plugin
 
 
-The Homebridge-Dummy plugin is the basis for this plugin.  Homebridge-cmdswitch-simple just adds the cmd functionality on top of the dummy plugin.  You do not need both plugins if you want dummy switchs and cmd switches.
+The Homebridge-Dummy plugin is the basis for this plugin.  Homebridge-cmdswitch-simple just adds the cmd functionality on top of the dummy plugin.  You do not need both plugins if you want dummy switchs and cmd switches. Any CMD command can be used.
 
 
 Example config.json:
@@ -109,7 +109,6 @@ A random period within one hour is defined as follows in your config.json:
 ## CMD Switches - Camera snapshot example
 
 You might want to create a switch that downloads a picture from your local IP camera to a folder
-You might want to create a switch that downloads a picture from your local IP camera to a folder.
 The CMD command must be exactly entered as you would at the CMD prompt.
 
 ```
@@ -135,7 +134,7 @@ The CMD command must be exactly entered as you would at the CMD prompt.
 
 ## CMD Switches - control a device on your network
 
-You might want to create a switch that downloads a picture from your local IP camera to a folder.
+You might want to create a switch wakes and sleeps your playstation
 The CMD command must be exactly entered as you would at the CMD prompt.
 
 
