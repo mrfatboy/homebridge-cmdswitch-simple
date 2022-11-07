@@ -1,0 +1,82 @@
+{
+    "pluginAlias": "CmdSwitchSimple",
+    "pluginType": "accessory",
+    "singular": false,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "title": "Name",
+                "type": "string",
+                "required": true
+            },
+            "stateful": {
+                "title": "Stateful",
+                "type": "boolean",
+                "default": false,
+                "description": "The switch remains on instead of being automatically turned off."
+            },
+            "reverse": {
+                "title": "Reverse",
+                "type": "boolean",
+                "default": false,
+                "description": "The switch's default state is on."
+            },
+            "time": {
+                "title": "Time",
+                "type": "number",
+                "default": 1000,
+                "description": "The switch will turn off after this number of milliseconds. Not used if the switch is stateful."
+            },
+            "random": {
+                "title": "Random",
+                "type": "boolean",
+                "default": false,
+                "description": "Randomize the time until a switch turns off. Not used if the switch is stateful."
+            },
+            "resettable": {
+                "title": "Resettable",
+                "type": "boolean",
+                "default": false,
+                "description": "The timer will reset each time the switch is turned on. "
+            },
+            "disableLogging": {
+                "title": "DisableLogging",
+                "type": "boolean",
+                "default": false,
+                "description": "No state change information (On/Off) will be logged. "
+            },
+            "logCMD": {
+                "title": "logCMD",
+                "type": "boolean",
+                "default": false,
+                "description": "Allow logging of CMD commands."
+            },
+            "onCMDenabled": {
+                "title": "onCMDenabled",
+                "type": "boolean",
+                "default": false,
+                "description": "Allow execution of this command"
+            },
+            "onCMD": {
+                "title": "onCMD",
+                "type": "string",
+                "default": false,
+                "description": "The actual cmd command that you want to execute from Homebridge host machine"
+            },
+            "offCMDenabled": {
+                "title": "offCMDenabled",
+                "type": "boolean",
+                "default": false,
+                "description": "Allow execution of this command"
+            },
+            "offCMD": {
+                "title": "offCMD",
+                "type": "string",
+                "default": false,
+                "description": "The actual cmd command that you want to execute from Homebridge host machine"
+            }
+
+        }
+    }
+}
