@@ -1,4 +1,3 @@
-
 # "Homebridge-cmdswitch-simple" Plugin
 
 
