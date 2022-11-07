@@ -61,7 +61,7 @@
             "onCMD": {
                 "title": "onCMD",
                 "type": "string",
-                "default": false,
+                "default": "",
                 "description": "The actual cmd command that you want to execute from Homebridge host machine"
             },
             "offCMDenabled": {
@@ -73,7 +73,7 @@
             "offCMD": {
                 "title": "offCMD",
                 "type": "string",
-                "default": false,
+                "default": "",
                 "description": "The actual cmd command that you want to execute from Homebridge host machine"
             }
 
